@@ -1,0 +1,12 @@
+# plugins/auth-boundary.toml
+["modules/zonemta-auth-boundary"]
+enabled="receiver"
+
+# to which SMTP interfaces this plugin applies to. Use "*" for all interfaces
+interfaces=["feeder"]
+
+# Boundary URL
+boundary_url="http://127.0.0.1:9200"
+
+# Boundary Target ID
+target_id="ttcp_##########"

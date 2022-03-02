@@ -1,0 +1,16 @@
+{
+    "name": "zonemta-auth-boundary",
+    "version": "0.0.0",
+    "description": "Authentication with Boundary (Hashicorp) for ZoneMTA",
+    "main": "index.js",
+    "author": "Valentin Henon <vhenon@mindbaz.com>",
+    "license": "GPLv3",
+    "dependencies": {
+        "request": "2.88.2"
+    },
+    "devDependencies": {
+        "eslint": "^8.10.0",
+        "eslint-config-nodemailer": "^1.2.0",
+        "eslint-config-prettier": "^8.4.0"
+    }
+}
