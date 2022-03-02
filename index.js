@@ -52,8 +52,8 @@ module.exports.init = (app, done) => {
                 },
                 form: {}
             },
-            ( err, res ) => {
-                if ( err || res.statusCode !== 200 ) {
+            ( error, response ) => {
+                if ( error || response.statusCode !== 200 ) {
                     // Authentication : failed
                     let err = new Error ( 'Authentication failed' );
                     err.responseCode = 535;
