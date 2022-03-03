@@ -1,10 +1,10 @@
 {
-    "name": "zonemta-auth-boundary",
+    "name": "@mindbaz/zonemta-auth-boundary",
     "version": "0.0.0",
     "description": "Authentication with Boundary (Hashicorp) for ZoneMTA",
     "main": "index.js",
     "author": "Valentin Henon <vhenon@mindbaz.com>",
-    "license": "GPLv3",
+    "license": "GPL-3.0-or-later",
     "dependencies": {
         "request": "2.88.2"
     },
@@ -14,5 +14,23 @@
         "eslint-config-nodemailer": "^1.2.0",
         "eslint-config-prettier": "^8.4.0",
         "sinon": "^13.0.1"
-    }
+    },
+    "directories": {
+        "test": "tests"
+    },
+    "scripts": {
+        "test": "make tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Mindbaz/zonemta-auth-boundary.git"
+    },
+    "keywords": [
+        "zonemta",
+        "boundary"
+    ],
+    "bugs": {
+        "url": "https://github.com/Mindbaz/zonemta-auth-boundary/issues"
+    },
+    "homepage": "https://github.com/Mindbaz/zonemta-auth-boundary#readme"
 }
