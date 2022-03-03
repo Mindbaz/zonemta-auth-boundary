@@ -7,7 +7,7 @@ Authentication with Boundary (Hashicorp) for [ZoneMTA](https://github.com/zone-e
 Add this as a dependency for your ZoneMTA app
 
 ```
-npm install zonemta-auth-boundary --save
+npm install @mindbaz/zonemta-auth-boundary --save
 ```
 
 Add a configuration entry in the "plugins" section of your ZoneMTA app
@@ -18,7 +18,7 @@ First enable plugin :
 
 ```toml
 # auth-boundary.toml
-["modules/zonemta-auth-boundary"]
+["modules/@mindbaz/zonemta-auth-boundary"]
 enabled="receiver"
 interfaces=["feeder"]
 ```

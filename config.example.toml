@@ -1,5 +1,5 @@
 # plugins/auth-boundary.toml
-["modules/zonemta-auth-boundary"]
+["modules/@mindbaz/zonemta-auth-boundary"]
 enabled="receiver"
 
 # to which SMTP interfaces this plugin applies to. Use "*" for all interfaces
